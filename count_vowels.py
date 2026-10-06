@@ -2,8 +2,8 @@
 Use def and a for loop only."""
 
 def count_vowels(s):
-    vowels = "AEIOUaeiou"
     count = 0
+    vowels = "AEIOUaeiou"
     for ch in s:
         if ch in vowels:
             count += 1
