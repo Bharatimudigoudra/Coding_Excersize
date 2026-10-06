@@ -1,0 +1,6 @@
+def sum_alternate(arr):
+    #total = sum(arr[::2]) # 0,2,4...
+    #return total
+    return sum(arr[::2]) # 0,2,4...
+
+print(sum_alternate([2,7,9,3,1])) # 12
