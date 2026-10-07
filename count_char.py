@@ -14,4 +14,4 @@ def count_char(s):
             char_count[c] = 1
     return char_count
 
-print(count_char("Bharati"))
+print(count_char("Bharathi"))
