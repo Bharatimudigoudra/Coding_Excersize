@@ -1,3 +1,5 @@
+"""Write a function that removes duplicate charectors from a string, for example, "abbaCa" becomes "abc" because "b" and "a" are duplicates. Use def, a for loop and if statement. No slicing like word[::-1]. Hint:compare the first letter with the last, the second with the second last, and so on. Use a new string to stone the result.  """
+
 """def remove_duplicate_chars(word):
     # keep only chars that appear exactly once
     result = ""
