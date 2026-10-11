@@ -27,4 +27,4 @@ def length_of_longest(s):
     return len(best)
 """
 
-print(length_of_longest("abcdefgabsd"))
+print(length_of_longest("abcdefgabd"))
