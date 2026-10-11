@@ -4,4 +4,4 @@ def reverse_string(word):
         result = char + result
     return result
 
-print(reverse_string("Bharati"))
+print(reverse_string("India"))
