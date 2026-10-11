@@ -12,4 +12,4 @@ def second_largest(numbers):
             second = i
     return second
 
-print(second_largest([4, 9, 2, 9, 7]))
+print(second_largest([4, 9, 2, 9, 3, 7]))
