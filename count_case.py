@@ -12,6 +12,6 @@ def count_case(text):
             upper = upper + 1
         elif ch >= "a" and ch <= "z":
             lower = lower + 1
-    print("Uppercase:", upper, "Lowercase:", lower)
+    return f"Uppercase: {upper}, Lowercase: {lower}"
 
-count_case("Bharati Mudigoudra")
+print(count_case("Bharati Mudigoudra"))
