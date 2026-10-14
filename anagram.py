@@ -31,4 +31,4 @@ def is_anagram(a,b):
 
 print(is_anagram("listen", "silent")) # True
 print(is_anagram("car", "rat")) # False
-print(is_anagram("aba", "baa")) # True
+print(is_anagram("aab", "abb")) # False
