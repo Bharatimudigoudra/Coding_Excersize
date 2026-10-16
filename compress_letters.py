@@ -21,7 +21,7 @@ def compress_letters(text):
         else:
             compresses += text[i-1] + str(count)
             count = 1
-        compresses += text[-1] + str(count)
+    compresses += text[-1] + str(count)
     return compresses
 
 print(compress_letters("aabccc")) # "a2b1c3"
