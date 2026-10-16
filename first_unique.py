@@ -17,6 +17,9 @@ def first_unique(text):
             count[letter] += 1
         else:
             count[letter] = 1
-    return count
+    for letter in text:
+        if count[letter] == 1:
+            return letter
+    return None
 
 print(first_unique("swiss")) # "w"
