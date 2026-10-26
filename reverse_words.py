@@ -10,7 +10,7 @@ You can use split() to get the words."""
 def reverse_words(s):
     words = s.split()
     result = ""
-    for i in range(len(words) -1, -1, 1):
+    for i in range(len(words) -1, -1, -1):
         result += words[i] + " "
     return result.strip()
 
