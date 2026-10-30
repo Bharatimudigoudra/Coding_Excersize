@@ -15,11 +15,11 @@ First make it work. Then try to avoid checking every possible pair. Explain your
 
 def two_sums(nums, target):
     num_to_index = {}
-    for index, num in enumerate(nums):
+    for i, num in enumerate(nums):
         complement = target - num
         if complement in num_to_index:
-            return [num_to_index[complement], index]
-        num_to_index[num] = index
+            return [num_to_index[complement], i]
+        num_to_index[num] = i
     return None
 
 print(two_sums([2,7,11,15,9], 9))
