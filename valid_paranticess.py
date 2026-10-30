@@ -21,7 +21,7 @@ Hint: when you see a closing bracket, which opening bracket should it match?"""
 
 def is_valid(s):
     stack = []
-    bracket_map = {')': '(', ']': '[', '}': '{'}'
+    bracket_map = {')': '(', ']': '[', '}': '{'}
     for char in s:
         if char in bracket_map:
             top_element = stack.pop() if stack else '#'
