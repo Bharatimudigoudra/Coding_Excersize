@@ -22,13 +22,15 @@ Hint: when you see a closing bracket, which opening bracket should it match?"""
 def is_valid(s):
     stack = []
     bracket_map = {')': '(', ']': '[', '}': '{'}
+
     for char in s:
-        if char in bracket_map:
+        if char in bracket_map:  # Closing bracket
             top_element = stack.pop() if stack else '#'
             if bracket_map[char] != top_element:
-                return bracket_map
-            else:
-                stack.append(char)
+                return False
+        else:  # Opening bracket
+            stack.append(char)
+
     return not stack
 
 print(is_valid("()"))
