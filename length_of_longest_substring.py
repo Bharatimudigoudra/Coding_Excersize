@@ -25,3 +25,5 @@ def length_of_longest_substring(s):
     return max_length
 
 print(length_of_longest_substring("abcabcbb"))
+
+#Complexity: O(n) time and O(n) worst-case space.
