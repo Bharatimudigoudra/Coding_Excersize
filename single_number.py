@@ -23,3 +23,6 @@ def single_number(nums):
             return i
 
 print(single_number([2, 2, 1]))
+
+# The first loop counts each number. The second returns the number whose count is 1.
+# Remember: n[i] += 1 increases an existing count; n[i] = 1 starts a new count.
