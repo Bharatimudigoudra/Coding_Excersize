@@ -21,4 +21,4 @@ def missing_number(nums):
         if i not in nums:
             return i
 
-print(missing_number([3,0,1]))
+print(missing_number([3,2,4,0,1]))
