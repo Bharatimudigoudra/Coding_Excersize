@@ -21,3 +21,5 @@ def max_subarray(nums):
     return max_sum
 
 print(max_subarray([1,-2,3,4,-1]))
+
+#Time: O(n). Extra space: O(1). This is the optimal solution.
