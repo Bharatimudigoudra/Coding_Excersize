@@ -17,14 +17,10 @@ Output: 8
 Write climb_stairs(n) to return the number of ways. Assume n is always at least 1."""
 
 def claim_stairs(n):
-    result = {}
-    result[1] = 1
-    result[2] = 2
-
-    for i in range(3, n + 1):
-        result[i] = result[i - 1] + result[i - 2]
-
-    return result[n]
+    a, b = 1, 1
+    for _ in range(n - 1):
+        a, b = b, a + b
+    return b
 
 print(claim_stairs(5))  # 8
         
