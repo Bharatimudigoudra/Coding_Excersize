@@ -22,3 +22,6 @@ def divisibleSumPairs(n,k,ar):
     return count
 
 print(divisibleSumPairs(6, 3, [1, 3, 2, 6, 1, 2]))
+
+# Time: O(n²), because you check every pair.
+# Extra space: O(1), because you only keep a counter.
